@@ -17,13 +17,13 @@
   <buildingsImage path="" generate="false"/>
  </TMXToBMP>
  <GenerateLots>
-  <exportdir path="../../../../../Zomboid/Workshop/TestMap/Contents/mods/TestMap/media/maps/TestMap"/>
+  <exportdir path="../../../../../Zomboid/Workshop/The Prison/Contents/mods/The Prison/media/maps/ModTemplateWorld1"/>
   <ZombieSpawnMap path="Map_ZombieSpawnMap.png"/>
   <TileDefFolder path="../../../../../../../Program Files (x86)/Steam/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
-  <worldOrigin origin="0,0"/>
+  <worldOrigin origin="-25,-39"/>
  </GenerateLots>
  <LuaSettings>
-  <spawnPointsFile path="../../../../../Zomboid/Workshop/TestMap/Contents/mods/TestMap/media/maps/TestMap/spawnpoints.lua"/>
+  <spawnPointsFile path="../../../../../Zomboid/Workshop/The Prison/Contents/mods/The Prison/media/maps/ModTemplateWorld1/spawnpoints.lua"/>
   <worldObjectsFile path="../../../../../Zomboid/Workshop/TestMap/Contents/mods/TestMap/media/maps/TestMap/objects.lua"/>
  </LuaSettings>
  <bmp path="Map.png" x="0" y="0" width="66" height="53"/>
@@ -25776,6 +25776,63 @@
   <object group="Vegitation" type="Vegitation" x="257" y="65" level="0" width="21" height="56"/>
   <object name="Prison" group="ZombiesType" type="ZombiesType" x="106" y="81" level="0" width="138" height="196"/>
   <object name="Prison" group="ZombiesType" type="ZombiesType" x="244" y="193" level="0" width="22" height="30"/>
+  <object type="SpawnPoint" x="179" y="231" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="180" y="225" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="180" y="215" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="197" y="233" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="197" y="221" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="196" y="213" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="196" y="207" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="179" y="148" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="181" y="136" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="180" y="126" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="196" y="132" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="195" y="142" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="196" y="149" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="191" y="167" level="1" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="191" y="175" level="1" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="192" y="179" level="1" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="182" y="174" level="1" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="182" y="177" level="1" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="182" y="169" level="1" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
  </cell>
  <cell x="26" y="39" map="tmx/26_39.tmx">
   <object group="Forest" type="Forest" x="44" y="209" level="0" width="81" height="70"/>
